@@ -20,9 +20,9 @@ filtered_categories = ["Twitter", "Communities", "Websites", "Podcasts and Scree
 
 # ----------------
 # Script variables
-category_name_regexp = /###\s\w+/
-category_desc_regexp = /_[\w\s\d\.]+_/
-lst_entry_regexp = /-[\s\w\d\[\]\(\)\/:\.\-\!_]+./
+category_name_regexp = /##\s\w+/
+category_desc_regexp = /\*[\w\s\d\.]+\*/
+lst_entry_regexp = /\*[\s\w\d\[\]\(\)\/:\.\-\!_]+./
 is_git_regexp = /(github.com)|(bitbucket.org)|(gitlab.com)/
 
 category_name = ""
